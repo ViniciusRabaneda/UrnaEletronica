@@ -38,8 +38,7 @@ function clicou(n) {
         numero = `${numero}${n}`;
         elNumero.classList.remove('pisca');
         if (elNumero.nextElementSibling !== null) {
-            elNumero.nextElementSibling.classList.add('pisca'); // pega o item mais proximo com mesmo css
-        } else {
+            elNumero.nextElementSibling.classList.add('pisca'); // pega o item mais proximo
             atualizaInterface();
         }
     }
